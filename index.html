@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Destiny Matrix 22 Arcana Mathematics & Sankhya Shastra Numerology Reference — VedaAstro</title>
+  <meta name="description" content="Open mathematical reference for the 22 Major Arcana Destiny Matrix (Матрица судьбы), Arcana 10 & 14 equations, 26 Karmic Tails, and Vedic Numerology (Санкхья-шастра).">
+  <link rel="canonical" href="https://vedaastro.github.io/destiny-matrix-22-arcana-math/">
+  <style>
+    :root { --bg: #f8fafc; --card: #ffffff; --text: #0f172a; --muted: #475569; --accent: #1d4ed8; --border: #e2e8f0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Georgia, serif; background: var(--bg); color: var(--text); line-height: 1.68; margin: 0; padding: 36px 20px; }
+    main { max-width: 900px; margin: 0 auto; background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 36px 40px; box-shadow: 0 2px 8px rgba(15,23,42,0.04); }
+    h1 { font-size: 28px; line-height: 1.28; margin-top: 0; color: #0b1120; }
+    h2 { font-size: 21px; margin-top: 32px; border-bottom: 1px solid var(--border); padding-bottom: 8px; }
+    h3 { font-size: 17px; margin-top: 22px; }
+    p, li { font-size: 16px; color: #1e293b; }
+    a { color: var(--accent); text-decoration: underline; font-weight: 500; }
+    table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 14.5px; }
+    th, td { border: 1px solid #cbd5e1; padding: 10px 12px; text-align: left; vertical-align: top; }
+    th { background: #f1f5f9; font-weight: 600; }
+    code, pre { background: #f1f5f9; border-radius: 6px; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+    code { padding: 2px 6px; font-size: 0.9em; }
+    pre { padding: 14px 16px; overflow-x: auto; font-size: 13.5px; border: 1px solid var(--border); }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; margin: 20px 0; }
+    .box { border: 1px solid var(--border); border-radius: 10px; padding: 16px 18px; background: #fcfdff; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Destiny Matrix 22 Major Arcana Mathematics, Karmic Tails &amp; Sankhya Shastra Numerology</h1>
+  <p>Open-source mathematical specification and algorithmic verification suite for the <strong>22 Major Arcana Octagram (Матрица судьбы 22 арканов)</strong>, diagonal lineage axes, 26 Karmic Tail combinations, and Vedic <strong>Sankhya Shastra (Санкхья-шастра)</strong> numerology.</p>
+
+  <h2>1. Live Production Calculators &amp; Canonical Reference Implementations</h2>
+  <div class="grid">
+    <div class="box">
+      <h3>Russian Edition (АстроГуру РФ)</h3>
+      <ul>
+        <li><a href="https://astroguru.ru/matrica-sudby">Матрица судьбы онлайн — расчёт октаграммы 22 арканов по дате рождения</a></li>
+        <li><a href="https://astroguru.ru/matrica-sudby/arkan-10">10 аркан в Матрице судьбы (Колесо Фортуны): в плюсе и минусе, финансы и карма</a></li>
+        <li><a href="https://astroguru.ru/matrica-sudby/arkan-14">14 аркан в Матрице судьбы (Умеренность / Зрелая Душа): таланты, деньги и отношения</a></li>
+        <li><a href="https://astroguru.ru/numerologiya">Ведическая нумерология онлайн — расчёт Числа Души и Судьбы по дате рождения</a></li>
+      </ul>
+    </div>
+    <div class="box">
+      <h3>International Editions (EN / IT / ES)</h3>
+      <ul>
+        <li><a href="https://astrologycalc.com/destiny-matrix-calculator/">Destiny Matrix Calculator (English — 22 Major Arcana &amp; Karmic Tail)</a></li>
+        <li><a href="https://astrologycalc.com/it/destiny-matrix-calculator/">Calcolatore Matrice del Destino (Italiano — 22 Arcani Maggiori)</a></li>
+        <li><a href="https://astrologycalc.com/es/destiny-matrix-calculator/">Calculadora de Matriz del Destino (Español — 22 Arcanos Mayores)</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <h2>2. Base-22 Recursive Digit Reduction &amp; Octagram Geometry</h2>
+  <p>Given a Gregorian birth date <code>(Day D, Month M, Year Y)</code>, the octagram superimposes a Personal Square (cardinal axes) and a Ancestral Square (45° diagonal axes). Every node is constrained to the integer set <code>{1, 2, ..., 22}</code> via the digit-summation operator <code>R22(n)</code>:</p>
+  <pre><code>A = R22(D)                              // Left Vertex: Personal Portrait &amp; Social Avatar
+B = R22(M)                              // Top Vertex: Spiritual Talent &amp; Intuition
+C = R22(sum_digits(Y))                  // Right Vertex: Material Karma &amp; Financial Threshold
+D = R22(A + B + C)                      // Bottom Vertex: Past-Cycle Karmic Anchor
+E = R22(A + B + C + D)                  // Center Node: Core Comfort Zone of the Soul
+KarmicTail = [R22(D + E), R22(D + R22(D + E)), D]</code></pre>
+
+  <h2>3. Comparative Reference Table: Key Arcana &amp; Numerological Systems</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>System / Node</th>
+        <th>Mathematical Rule</th>
+        <th>Primary Psychological &amp; Event Domain</th>
+        <th>Reference Documentation</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Full 22-Arcana Octagram</strong></td>
+        <td>Superposition of cardinal &amp; diagonal squares mod-22</td>
+        <td>Personal purpose (ages 20–40), social mission (40+), finance &amp; love channels</td>
+        <td><a href="https://astroguru.ru/matrica-sudby">astroguru.ru/matrica-sudby</a></td>
+      </tr>
+      <tr>
+        <td><strong>10th Arcana (Wheel of Fortune)</strong></td>
+        <td><code>D = 10</code>, <code>D = 28 (2+8=10)</code>, or <code>M = 10</code></td>
+        <td>Synchronicity, timing cycles, Jupiterian expansion, anti-burnout flow</td>
+        <td><a href="https://astroguru.ru/matrica-sudby/arkan-10">astroguru.ru/matrica-sudby/arkan-10</a></td>
+      </tr>
+      <tr>
+        <td><strong>14th Arcana (Temperance)</strong></td>
+        <td><code>D = 14</code> or composite sums (<code>6+8</code>, <code>5+9</code>, <code>7+7</code>)</td>
+        <td>Emotional intelligence, aesthetics, diplomacy, creative healing</td>
+        <td><a href="https://astroguru.ru/matrica-sudby/arkan-14">astroguru.ru/matrica-sudby/arkan-14</a></td>
+      </tr>
+      <tr>
+        <td><strong>Sankhya Shastra (Navagraha 1–9)</strong></td>
+        <td>Base-9 digital root of birth day (Mulank) &amp; full date (Bhagyank)</td>
+        <td>Planetary character archetype (Sun through Mars) &amp; yearly cycles</td>
+        <td><a href="https://astroguru.ru/numerologiya">astroguru.ru/numerologiya</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>Source code &amp; MIT license: <a href="https://github.com/VedaAstro/destiny-matrix-22-arcana-math">github.com/VedaAstro/destiny-matrix-22-arcana-math</a></p>
+</main>
+</body>
+</html>

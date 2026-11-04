@@ -1,0 +1,22 @@
+{
+  "name": "destiny-matrix-22-arcana-math",
+  "version": "1.0.0",
+  "description": "Mathematical Reference & Base-22 Modulo Octagram Equations for the 22 Major Arcana Destiny Matrix, Karmic Tails, and Sankhya Shastra Vedic Numerology.",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VedaAstro/destiny-matrix-22-arcana-math.git"
+  },
+  "homepage": "https://vedaastro.github.io/destiny-matrix-22-arcana-math/",
+  "keywords": [
+    "destiny-matrix",
+    "22-arcana",
+    "matrica-sudby",
+    "karmic-tail",
+    "sankhya-shastra",
+    "vedic-numerology",
+    "arkan-10",
+    "arkan-14"
+  ]
+}
